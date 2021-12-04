@@ -23,12 +23,12 @@ os.system('unzip Cifar10.zip')
 # linux, python 사용
 import os
 
-os.system('wget -q https://raw.githubusercontent.com/panggin/AI2021_project/main/DataSet.tar.gz')
-os.system('tar -xzf DataSet.tar.gz')
+os.system('wget -q https://raw.githubusercontent.com/panggin/AI2021_project/main/Cifar10.tar.gz')
+os.system('tar -xzf Cifar10.tar.gz')
 
 ```
 ```
 # linux, ipynb 쉘 사용
-!wget -q https://raw.githubusercontent.com/panggin/AI2021_project/main/DataSet.tar.gz
-!tar -xzf DataSet.tar.gz
+!wget -q https://raw.githubusercontent.com/panggin/AI2021_project/main/Cifar10.tar.gz
+!tar -xzf Cifar10.tar.gz
 ```
