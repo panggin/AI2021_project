@@ -39,7 +39,7 @@
 !wget -q https://raw.githubusercontent.com/panggin/AI2021_project/main/Cifar10.tar.gz
 !tar -xzf Cifar10.tar.gz
 ```
-<br/>
+<br/><br/>
 
 ------
 <br/>
@@ -54,6 +54,7 @@
 + 문제 해결
   1) 더 많은 특징(세세하게 분류) 추출이 필요하다고 판단 -> 특징 추출을 위한 전처리층(Conv층) 추가
   2) 해당 층의 Dropout 퍼센트 높임
+<br/>
  
 ## Feedback
 + CNN 모델 학습에서 과대적합을 피하기 위해서 EarlyStopping 사용
